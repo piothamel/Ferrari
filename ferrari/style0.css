@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+main {
+    max-width: 1050px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin: 25px 0;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-page {
+    background-color: #fff5f5;
+}
+
+.home-page header {
+    background-color: #9b0000;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.home-page nav a {
+    color: white;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.home-page section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 6px solid #9b0000;
+}
+
+.home-page h2 {
+    color: #9b0000;
+}
+
+.home-page figure {
+    text-align: center;
+}
+
+.home-page img {
+    max-width: 90%;
+    border-radius: 12px;
+}
+
+.storia-page {
+    background-color: #f5f1e8;
+}
+
+.storia-page header {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.storia-page nav a {
+    color: #ffd700;
+    margin: 0 8px;
+}
+
+.storia-page section {
+    background-color: #fffdf7;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #c9b98b;
+    border-radius: 5px;
+}
+
+.storia-page h2 {
+    color: #7b0000;
+}
+
+.storia-page figure {
+    text-align: center;
+}
+
+.storia-page img {
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+.storia-page blockquote {
+    background-color: #eee6d0;
+    padding: 15px;
+    border-left: 5px solid #7b0000;
+}
+
+.modelli-page {
+    background-color: #eeeeee;
+}
+
+.modelli-page header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.modelli-page nav a {
+    color: #ff3333;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.modelli-page section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.modelli-page h2 {
+    color: #d00000;
+}
+
+.modelli-page figure {
+    margin: 20px;
+}
+
+.modelli-page img {
+    max-width: 90%;
+    border-radius: 15px;
+    border: 3px solid #222;
+}
+
+.modelli-page ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+.f1-page {
+    background-color: #1a1a1a;
+    color: #eeeeee;
+}
+
+.f1-page header {
+    background-color: #b00000;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.f1-page nav a {
+    color: white;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.f1-page section {
+    background-color: #292929;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    border: 1px solid #555555;
+}
+
+.f1-page h2 {
+    color: #ff3333;
+}
+
+.f1-page figure {
+    text-align: center;
+}
+
+.f1-page img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.f1-page blockquote {
+    background-color: #3b0000;
+    padding: 15px;
+    border-left: 5px solid #ff0000;
+}
+
+.f1-page footer {
+    background-color: #990000;
+}
+
+.tech-page {
+    background-color: #eef3f7;
+}
+
+.tech-page header {
+    background-color: #004b70;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.tech-page nav a {
+    color: #ffffff;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.tech-page section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.tech-page h2 {
+    color: #004b70;
+}
+
+.tech-page figure {
+    text-align: center;
+}
+
+.tech-page img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.tech-page blockquote {
+    background-color: #dcecf5;
+    padding: 15px;
+    border-left: 5px solid #004b70;
+}
+
+
+.tech-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tech-page th {
+    background-color: #004b70;
+    color: white;
+    padding: 12px;
+}
+
+.tech-page td {
+    padding: 12px;
+    border: 1px solid #bbbbbb;
+}
+
+.tech-page tr:nth-child(even) {
+    background-color: #eaf2f7;
+}
+
+.tech-page tr:hover {
+    background-color: #d5e8f2;
+}
+
+
+
+.home-page footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.storia-page footer {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.modelli-page footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.f1-page footer {
+    background-color: #990000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.tech-page footer {
+    background-color: #003b58;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* =========================
+   FOOTER LINKS
+   ========================= */
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   HR
+   ========================= */
+
+hr {
+    border: 0;
+    border-top: 2px solid #999;
+    margin: 25px 0;
+}
